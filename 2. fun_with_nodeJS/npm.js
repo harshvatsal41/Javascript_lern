@@ -1,0 +1,10 @@
+const chalk = require('chalk');
+const figlet = require('figlet');
+console.log(chalk.blue('Hello world!'));
+console.log(chalk.bold('hi shreya'));
+console.log(chalk.underline('hi shreya'));
+console.log(chalk.red('hi shreya'));
+console.log(chalk.red('hi shreya'));
+console.log(chalk.bgBlueBright('hi shreya'));
+console.log(chalk.inverse('hi shreya'));
+console.log(chalk.red(figlet.textSync('SHREYA LOVE YOU')));
